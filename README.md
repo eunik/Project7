@@ -14,7 +14,7 @@ test <a src=test onerror=alert(document.cookie)>
     - Tested in version: 4.2
     - Fixed in version: Not yet fixed
   - [x] GIF Walkthrough: 
-    - <img src='GIFS/enumeration.gif' width="800">
+    <img src='GIFS/enumeration.gif' width="800">
   - [x] Steps to recreate: 
     - Add an API request on the end of the site URL:
 	```/your-site-url/?author=#```
@@ -30,7 +30,7 @@ test <a src=test onerror=alert(document.cookie)>
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='GIFS/XSS.gif' width="800">
+    <img src='GIFS/xss.gif' width="800">
   - [x] Steps to recreate: 
     - Create a new post.  
 	- Add the following script at the end of your title:  
@@ -45,7 +45,7 @@ test <a src=test onerror=alert(document.cookie)>
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
   - [x] GIF Walkthrough: 
-    - <img src='GIFS/XSS2.gif' width="800">
+    <img src='GIFS/xss2.gif' width="800">
   - [x] Steps to recreate: 
     - Comment the following in a page/post:
 	```<a title='x onmouseover=alert(unescape(/Unauthenticated%20Stored%20Cross-Site%20Scripting/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  ######random characters to make it over 64KB#####'></a>```
